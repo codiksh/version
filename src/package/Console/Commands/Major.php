@@ -24,7 +24,7 @@ class Major extends Base
     public function handle()
     {
         if ($this->checkIfCanIncrement('current', 'version')) {
-            $number = app('pragmarx.version')->incrementMajor();
+            $number = app('codiksh.version')->incrementMajor();
 
             $this->info("New major version: {$number}");
 

@@ -38,21 +38,21 @@ class ServiceProvider extends IlluminateServiceProvider
      * @var array
      */
     protected $commandList = [
-        'pragmarx.version.command' => VersionCommand::class,
+        'codiksh.version.command' => VersionCommand::class,
 
-        'pragmarx.version.commit.command' => Commit::class,
+        'codiksh.version.commit.command' => Commit::class,
 
-        'pragmarx.version.show.command' => Show::class,
+        'codiksh.version.show.command' => Show::class,
 
-        'pragmarx.version.major.command' => Major::class,
+        'codiksh.version.major.command' => Major::class,
 
-        'pragmarx.version.minor.command' => Minor::class,
+        'codiksh.version.minor.command' => Minor::class,
 
-        'pragmarx.version.patch.command' => Patch::class,
+        'codiksh.version.patch.command' => Patch::class,
 
-        'pragmarx.version.absorb.command' => Absorb::class,
+        'codiksh.version.absorb.command' => Absorb::class,
 
-        'pragmarx.version.absorb.timestamp' => Timestamp::class,
+        'codiksh.version.absorb.timestamp' => Timestamp::class,
     ];
 
     /**
@@ -129,7 +129,7 @@ class ServiceProvider extends IlluminateServiceProvider
         Blade::directive(
             $this->config->get('blade-directive', 'version'),
             function ($format = Constants::DEFAULT_FORMAT) {
-                return "<?php echo app('pragmarx.version')->format($format); ?>";
+                return "<?php echo app('codiksh.version')->format($format); ?>";
             }
         );
     }
@@ -164,7 +164,7 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     protected function registerService()
     {
-        $this->app->singleton('pragmarx.version', function () {
+        $this->app->singleton('codiksh.version', function () {
             $version = new Version($this->config);
 
             $version->setConfigFileStub($this->getConfigFileStub());

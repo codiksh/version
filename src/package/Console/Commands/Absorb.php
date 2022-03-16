@@ -30,7 +30,7 @@ class Absorb extends Base
         }
 
         try {
-            app('pragmarx.version')->absorb();
+            app('codiksh.version')->absorb();
 
             $this->info('Version was absorbed.');
         } catch (\Exception $exception) {
@@ -49,6 +49,6 @@ class Absorb extends Base
      */
     protected function isInAbsorbMode(): bool
     {
-        return app('pragmarx.version')->isInAbsorbMode();
+        return app('codiksh.version')->isInAbsorbMode();
     }
 }

@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/pragmarx/version"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/pragmarx/version.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/codiksh/version"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/codiksh/version.svg?style=flat-square"></a>
     <a href="/antonioribeiro/version/blob/master/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
     <a href="https://scrutinizer-version.com/g/antonioribeiro/version/?branch=master"><img alt="Code Quality" src="https://img.shields.io/scrutinizer/g/antonioribeiro/version.svg?style=flat-square"></a>
     <a href="https://scrutinizer-version.com/g/antonioribeiro/version/?branch=master"><img alt="Build" src="https://img.shields.io/scrutinizer/build/g/antonioribeiro/version.svg?style=flat-square"></a>
@@ -14,7 +14,7 @@
 <p align="center">
     <a href="https://scrutinizer-version.com/g/antonioribeiro/version/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/version.svg?style=flat-square"></a>
     <a href="https://styleci.io/repos/112244465"><img alt="StyleCI" src="https://styleci.io/repos/112244465/shield"></a>
-    <a href="https://packagist.org/packages/pragmarx/version"><img alt="Downloads" src="https://img.shields.io/packagist/dt/pragmarx/version.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/codiksh/version"><img alt="Downloads" src="https://img.shields.io/packagist/dt/codiksh/version.svg?style=flat-square"></a>
 </p>
 
 ## Description
@@ -368,10 +368,10 @@ Show the current app version:
 
 ``` text
 $ php artisan version:show
-PragmaRX version 1.0.0 (build 701031)
+Codiksh version 1.0.0 (build 701031)
 
 $ php artisan version:show --format=compact
-PragmaRX v1.0.0-701031
+Codiksh v1.0.0-701031
 
 $ php artisan version:show --format=compact --suppress-app-name
 v1.0.0-701031
@@ -437,7 +437,7 @@ You can test it online: https://regex101.com/r/Ly7O1x/42
 Via Composer
 
 ``` bash
-$ composer require pragmarx/version
+$ composer require codiksh/version
 ```
 
 Then publish the configuration file you'll have to:
@@ -511,4 +511,4 @@ This package is licensed under the MIT License - see the `LICENSE` file for deta
 Pull requests and issues are welcome.
 
 
-<!-- [![Downloads](https://img.shields.io/packagist/dt/pragmarx/version.svg?style=flat-square)](https://packagist.org/packages/pragmarx/version) --> 
+<!-- [![Downloads](https://img.shields.io/packagist/dt/codiksh/version.svg?style=flat-square)](https://packagist.org/packages/codiksh/version) --> 

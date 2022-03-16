@@ -13,6 +13,6 @@ class Facade extends LaravelFacade
      */
     protected static function getFacadeAccessor()
     {
-        return 'pragmarx.version';
+        return 'codiksh.version';
     }
 }

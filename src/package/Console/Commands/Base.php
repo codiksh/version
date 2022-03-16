@@ -15,7 +15,7 @@ class Base extends Command
     public function displayAppVersion($format = 'full')
     {
         $this->info(
-            config('app.name').' '.app('pragmarx.version')->format($format)
+            config('app.name').' '.app('codiksh.version')->format($format)
         );
     }
 
@@ -30,7 +30,7 @@ class Base extends Command
     {
         $method = sprintf('is%sInAbsorbMode', $section = Str::studly($section));
 
-        if (app('pragmarx.version')->$method($type)) {
+        if (app('codiksh.version')->$method($type)) {
             $this->error(
                 "{$section} is in git absorb mode, cannot be incremented"
             );
