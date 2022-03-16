@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Version\Package\Support;
+namespace Codiksh\Version\Package\Support;
 
 use Illuminate\Support\Facades\Cache as IlluminateCache;
 

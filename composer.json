@@ -1,5 +1,5 @@
 {
-    "name": "pragmarx/version",
+    "name": "codiksh/version",
     "description": "Take control over your Laravel app version",
     "keywords": [
         "laravel",
@@ -9,8 +9,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Antonio Carlos Ribeiro",
-            "email": "acr@antoniocarlosribeiro.com",
+            "name": "Codiksh",
+            "email": "support@codiksh.in",
+        },
+        {
+            "name": "Nikhil Bhatia",
+            "email": "nikhil@codiksh.in",
             "role": "Creator & Designer"
         }
     ],
@@ -26,18 +30,18 @@
     },
     "autoload": {
         "psr-4": {
-            "PragmaRX\\Version\\Package\\": "src/package",
-            "PragmaRX\\Version\\Tests\\": "tests/"
+            "Codiksh\\Version\\Package\\": "src/package",
+            "Codiksh\\Version\\Tests\\": "tests/"
         }
     },
     "extra": {
         "component": "package",
         "laravel": {
             "providers": [
-                "PragmaRX\\Version\\Package\\ServiceProvider"
+                "Codiksh\\Version\\Package\\ServiceProvider"
             ],
             "aliases": {
-                "Version": "PragmaRX\\Version\\Package\\Facade"
+                "Version": "Codiksh\\Version\\Package\\Facade"
             }
         }
     },

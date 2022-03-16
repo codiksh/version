@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Version\Package\Support;
+namespace Codiksh\Version\Package\Support;
 
 use Exception;
-use PragmaRX\Version\Package\Exceptions\GitTagNotFound;
+use Codiksh\Version\Package\Exceptions\GitTagNotFound;
 use Symfony\Component\Process\Process;
 
 class Git

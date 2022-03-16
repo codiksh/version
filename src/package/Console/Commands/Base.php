@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Version\Package\Console\Commands;
+namespace Codiksh\Version\Package\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

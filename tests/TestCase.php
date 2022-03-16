@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Version\Tests;
+namespace Codiksh\Version\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use PragmaRX\Version\Package\ServiceProvider as VersionServiceProvider;
+use Codiksh\Version\Package\ServiceProvider as VersionServiceProvider;
 use PragmaRX\Yaml\Package\ServiceProvider as YamlServiceProvider;
 
 abstract class TestCase extends OrchestraTestCase

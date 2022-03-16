@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Version\Package;
+namespace Codiksh\Version\Package;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 

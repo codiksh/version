@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Version\Package\Support;
+namespace Codiksh\Version\Package\Support;
 
 use Carbon\Carbon;
-use PragmaRX\Version\Package\Version;
+use Codiksh\Version\Package\Version;
 
 class Absorb
 {

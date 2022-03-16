@@ -1,16 +1,16 @@
 <?php
 
-namespace PragmaRX\Version\Tests;
+namespace Codiksh\Version\Tests;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Blade;
-use PragmaRX\Version\Package\Exceptions\GitTagNotFound;
-use PragmaRX\Version\Package\Exceptions\MethodNotFound;
-use PragmaRX\Version\Package\Facade as VersionFacade;
-use PragmaRX\Version\Package\Support\Constants;
-use PragmaRX\Version\Package\Version;
-use PragmaRX\Version\Package\Version as VersionService;
+use Codiksh\Version\Package\Exceptions\GitTagNotFound;
+use Codiksh\Version\Package\Exceptions\MethodNotFound;
+use Codiksh\Version\Package\Facade as VersionFacade;
+use Codiksh\Version\Package\Support\Constants;
+use Codiksh\Version\Package\Version;
+use Codiksh\Version\Package\Version as VersionService;
 
 class VersionTest extends TestCase
 {

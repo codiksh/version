@@ -202,7 +202,7 @@ The best ways to instantiate it are:
 A simple PHP object instantiation:
 
 ``` php
-$version = new \PragmaRX\Version\Package\Version();
+$version = new \Codiksh\Version\Package\Version();
 
 dd(
     $version->format()
@@ -213,7 +213,7 @@ Or to get an already instantiated Version object from the container:
 
 ``` php
 dd(
-    app(\PragmaRX\Version\Package\Version::class)->format()
+    app(\Codiksh\Version\Package\Version::class)->format()
 );
 ```
 
@@ -304,7 +304,7 @@ Here's a community example on how to send the app version number when logging an
 
 namespace App\Exceptions;
 
-use PragmaRX\Version\Package\Version;
+use Codiksh\Version\Package\Version;
 use Bugsnag\BugsnagLaravel\Facades\Bugsnag;
 
 class Handler extends ExceptionHandler
@@ -443,7 +443,7 @@ $ composer require pragmarx/version
 Then publish the configuration file you'll have to:
 
 ``` bash
-$ php artisan vendor:publish --provider="PragmaRX\Version\Package\ServiceProvider"
+$ php artisan vendor:publish --provider="Codiksh\Version\Package\ServiceProvider"
 ```
 
 And you should be good to use it in your views:
